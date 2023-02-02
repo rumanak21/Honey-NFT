@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../../img/HoneyNFT.png";
 
 const Home = () => {
   return (
@@ -38,7 +39,7 @@ const Home = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="btn btn-ghost normal-case text-xl"> <img width={120} src={img} alt="" srcset="" /> </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 ">

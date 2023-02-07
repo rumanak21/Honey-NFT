@@ -9,7 +9,7 @@ import hero_pic7 from "./../../img/header-img7.png";
 
 const HerroSection = () => {
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div className="hero min-h-screen ">
       <div className="hero-content flex-col lg:flex-row-reverse w-4/5 ">
         <div className="flex flex-row gap-4 flex-row-reverse justify-center justify-items-center">
           <div>

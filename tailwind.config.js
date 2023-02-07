@@ -10,7 +10,8 @@ module.exports = {
       {
         doctortheme: {
           primary: "#FD1C68",
-          secondary: "#FDAE8F",
+          secondary: "#FE8E87",
+          tertiary: "#110C0C",
           
         },
       },

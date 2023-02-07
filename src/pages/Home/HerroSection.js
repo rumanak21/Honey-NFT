@@ -30,14 +30,34 @@ const HerroSection = () => {
           <h1 className="text-5xl font-bold">
             <p>Create, Sell & Collect </p> <n />
             <p>Your Own Creative </p> <n />
-            <p><span className=" text-secondary ">NFT</span></p> 
+            <p>
+              <span className=" text-secondary ">NFT</span>
+            </p>
           </h1>
           <p className="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi.
           </p>
-          <button className="btn border-secondary text-secondary hover:text-white  hover:bg-gradient-to-t from-primary to-secondary w-36 h-10 mr-5">Explore Now</button>
-          <button className="btn border-secondary text-secondary hover:text-white hover:bg-gradient-to-t from-primary to-secondary w-36 h-10 ">Sell NFT</button>
+          <button className="btn border-secondary text-secondary hover:text-white  hover:bg-gradient-to-t from-primary to-secondary w-36 h-10 mr-5">
+            Explore Now
+          </button>
+          <button className="btn border-secondary text-secondary hover:text-white hover:bg-gradient-to-t from-primary to-secondary w-36 h-10 ">
+            Sell NFT
+          </button>
+          <div className="mt-6 flex flex-col-3 gap-8">
+            <div className="">
+              <p className=" text-3xl font-bold  ">70k+</p>
+              <p className=" text-base font-bold text-[#818388] ">Artworks</p>
+            </div>
+            <div className="">
+              <p className=" text-3xl font-bold  ">20k+</p>
+              <p className=" text-base font-bold text-[#818388]">Artists</p>
+            </div>
+            <div className="">
+              <p className=" text-3xl font-bold  ">99k+</p>
+              <p className=" text-base font-bold text-[#818388]">Aucations</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

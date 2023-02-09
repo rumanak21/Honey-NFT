@@ -15,11 +15,11 @@ const AboutSection = () => {
       <div className="hero ">
         <div className="hero-content flex-col lg:flex-row">
           <div className="">
-            <img className="mb-8" src={about_pic3} alt="" />
+            <img className="mb-8 w-48 ml-12 " src={about_pic3} alt="" />
             <img className="w-28 ml-32" src={about_pic2} alt="" />
           </div>
           <div>
-            <img className="ml-6 " src={about_pic1} alt="" />
+            <img className="ml-6 w-40 " src={about_pic1} alt="" />
           </div>
           <div className=" ml-20 w-6/12">
             <h1 className="text-2xl font-bold">Box Office News!</h1>

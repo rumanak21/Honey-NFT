@@ -6,27 +6,33 @@ import about_pic3 from "./../../img/about-img3.png";
 const AboutSection = () => {
   return (
     <div className=" w-4/5 mx-auto ">
-      <div>
-        <h2>About</h2>
-        <p>Here you can learn more about NFT</p>
+      <div className=" mb-10 ">
+        <h2 className=" text-center text-4xl bold">About Us</h2>
+        <p className=" mx-auto text-center text-base font-bold text-[#818388] w-6/12 pt-3 ">
+          Here you can learn more about NFT. In deleniti eaque aut repudiandae et a id nisi.
+        </p>
       </div>
-      <div className="hero min-h-screen">
+      <div className="hero ">
         <div className="hero-content flex-col lg:flex-row">
-          <div>
-            <img src={about_pic3} alt="" />
-            <img src={about_pic2} alt="" />
+          <div className="">
+            <img className="mb-8" src={about_pic3} alt="" />
+            <img className="w-28 ml-32" src={about_pic2} alt="" />
           </div>
           <div>
-            <img src={about_pic1} alt="" />
+            <img className="ml-6 " src={about_pic1} alt="" />
           </div>
-          <div>
-            <h1 className="text-5xl font-bold">Box Office News!</h1>
-            <p className="py-6">
+          <div className=" ml-20 w-6/12">
+            <h1 className="text-2xl font-bold">Box Office News!</h1>
+            <p className="py-6 text-base font-bold text-[#818388]">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              et a id nisi.Provident cupiditate voluptatem et in. Quaerat fugiat
+              ut assumenda excepturi exercitationem quasi. In deleniti eaque aut
+              repudiandae et a id nisi.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn bg-gradient-to-t from-primary to-secondary w-36 h-10 ">
+              See More
+            </button>
           </div>
         </div>
       </div>

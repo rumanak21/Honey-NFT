@@ -34,7 +34,7 @@ const HerroSection = () => {
               <span className=" text-secondary ">NFT</span>
             </p>
           </h1>
-          <p className="py-6">
+          <p className="py-6 text-base font-bold text-[#818388]">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi.
           </p>

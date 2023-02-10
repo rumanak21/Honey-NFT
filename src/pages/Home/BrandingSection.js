@@ -5,7 +5,7 @@ import logo2 from "./../../img/Logo_of_Blockchain.io logo.svg";
 
 const BrandingSection = () => {
   return (
-    <div className="flex flex-col-3 gap-20 w-4/5 m-10 justify-center content-center">
+    <div className="flex flex-col-3 gap-20 mb-20 justify-center content-center">
       <img className="w-48" src={logo1} alt="" />
       <img  className="w-40" src={logo3} alt="" />
       <img className="w-56" src={logo2} alt="" />

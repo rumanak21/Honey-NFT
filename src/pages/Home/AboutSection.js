@@ -5,11 +5,12 @@ import about_pic3 from "./../../img/about-img3.png";
 
 const AboutSection = () => {
   return (
-    <div className=" w-4/5 mx-auto ">
+    <div className=" mx-auto mb-20 ">
       <div className=" mb-10 ">
         <h2 className=" text-center text-4xl bold">About Us</h2>
         <p className=" mx-auto text-center text-base font-bold text-[#818388] w-6/12 pt-3 ">
-          Here you can learn more about NFT. In deleniti eaque aut repudiandae et a id nisi.
+          Here you can learn more about NFT. In deleniti eaque aut repudiandae
+          et a id nisi.
         </p>
       </div>
       <div className="hero ">

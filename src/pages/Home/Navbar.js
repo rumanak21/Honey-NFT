@@ -42,7 +42,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      <div className="form-control w-full max-w-xs mr-2 ">
+      <div className="form-control w-4/5 max-w-xs ml-20">
         
         <input
         

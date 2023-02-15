@@ -3,6 +3,7 @@ import AboutSection from "./AboutSection";
 import BrandingSection from "./BrandingSection";
 import HerroSection from "./HerroSection";
 import HotBidsSection from "./HotBidsSection";
+import MoreNFT from "./MoreNFT";
 import Navbar from "./Navbar";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
     <BrandingSection></BrandingSection>
     <AboutSection></AboutSection>
     <HotBidsSection></HotBidsSection>
+    <MoreNFT></MoreNFT>
     </div>
   );
 };

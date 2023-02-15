@@ -14,7 +14,7 @@ const MoreNFT = () => {
   return (
     <div className="">
       <h1 className="text-3xl font-bold text-center ">
-        Discover More <span>NFT</span>s
+        Discover More <span className=" text-secondary ">NFT</span>s
       </h1>
       <div className=" flex justify-center gap-5 mt-10 mb-10 relative ">
         <button className="btn btn-active bg-gradient-to-t from-primary to-secondary">
@@ -49,8 +49,8 @@ const MoreNFT = () => {
           </figure>
           <div>
             <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center mr-2">
-                <p className=" text-center text-base">Red Line</p>
+              <div className="flex mb-3 items-center ">
+                <p className=" text-center text-sm">Red Line</p>
               </div>
               <div className="card-actions m-2">
                 <div className="card-actions m-2">
@@ -64,8 +64,8 @@ const MoreNFT = () => {
               </div>
             </div>
             <p className="text-base font-bold text-[#818388] text-center ">Reserve price</p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center ">
-              <img className="" src={eth} alt="" />
+            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
+              <img src={eth} alt="" />
               <p className="ml-0.5">ETH 9.31</p>
               <p className="ml-0.5">($29,8846)</p>
             </div>
@@ -77,8 +77,8 @@ const MoreNFT = () => {
           </figure>
           <div>
             <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center mr-2">
-                <p className=" text-center text-base">Blue Fire</p>
+              <div className="flex mb-3 items-center ">
+                <p className=" text-center text-sm">Blue Fire</p>
               </div>
               <div className="card-actions m-2">
                 <div className="card-actions m-2">
@@ -92,8 +92,8 @@ const MoreNFT = () => {
               </div>
             </div>
             <p className="text-base font-bold text-[#818388] text-center ">Reserve price</p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center ">
-              <img className="" src={eth} alt="" />
+            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
+              <img src={eth} alt="" />
               <p className="ml-0.5">ETH 9.31</p>
               <p className="ml-0.5">($29,8846)</p>
             </div>
@@ -105,8 +105,8 @@ const MoreNFT = () => {
           </figure>
           <div>
             <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center mr-2">
-                <p className=" text-center text-base">Green Glass</p>
+              <div className="flex mb-3 items-center ">
+                <p className=" text-center text-sm">Green Glass</p>
               </div>
               <div className="card-actions m-2">
                 <div className="card-actions m-2">
@@ -120,8 +120,8 @@ const MoreNFT = () => {
               </div>
             </div>
             <p className="text-base font-bold text-[#818388] text-center ">Reserve price</p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center ">
-              <img className="" src={eth} alt="" />
+            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
+              <img src={eth} alt="" />
               <p className="ml-0.5">ETH 9.31</p>
               <p className="ml-0.5">($29,8846)</p>
             </div>
@@ -133,8 +133,8 @@ const MoreNFT = () => {
           </figure>
           <div>
             <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center mr-2">
-                <p className=" text-center text-base">Hi Colour</p>
+              <div className="flex mb-3 items-center ">
+                <p className=" text-center text-sm">Hi Colour</p>
               </div>
               <div className="card-actions m-2">
                 <div className="card-actions m-2">
@@ -148,8 +148,8 @@ const MoreNFT = () => {
               </div>
             </div>
             <p className="text-base font-bold text-[#818388] text-center ">Reserve price</p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center ">
-              <img className="" src={eth} alt="" />
+            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
+              <img src={eth} alt="" />
               <p className="ml-0.5">ETH 9.31</p>
               <p className="ml-0.5">($29,8846)</p>
             </div>
@@ -161,8 +161,8 @@ const MoreNFT = () => {
           </figure>
           <div>
             <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center mr-2">
-                <p className=" text-center text-base">Super Red</p>
+              <div className="flex mb-3 items-center ">
+                <p className=" text-center text-sm">Super Red</p>
               </div>
               <div className="card-actions m-2">
                 <div className="card-actions m-2">
@@ -176,8 +176,8 @@ const MoreNFT = () => {
               </div>
             </div>
             <p className="text-base font-bold text-[#818388] text-center ">Reserve price</p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center ">
-              <img className="" src={eth} alt="" />
+            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
+              <img src={eth} alt="" />
               <p className="ml-0.5">ETH 9.31</p>
               <p className="ml-0.5">($29,8846)</p>
             </div>
@@ -189,8 +189,8 @@ const MoreNFT = () => {
           </figure>
           <div>
             <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center mr-2">
-                <p className=" text-center text-base">Glassy White</p>
+              <div className="flex mb-3 items-center ">
+                <p className=" text-center text-sm">Glassy White</p>
               </div>
               <div className="card-actions m-2">
                 <div className="card-actions m-2">
@@ -204,8 +204,8 @@ const MoreNFT = () => {
               </div>
             </div>
             <p className="text-base font-bold text-[#818388] text-center ">Reserve price</p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center ">
-              <img className="" src={eth} alt="" />
+            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
+              <img src={eth} alt="" />
               <p className="ml-0.5">ETH 9.31</p>
               <p className="ml-0.5">($29,8846)</p>
             </div>
@@ -217,8 +217,8 @@ const MoreNFT = () => {
           </figure>
           <div>
             <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center mr-2">
-                <p className=" text-center text-base">Pink Banana</p>
+              <div className="flex mb-3 items-center ">
+                <p className=" text-center text-sm">Pink Banana</p>
               </div>
               <div className="card-actions m-2">
                 <div className="card-actions m-2">
@@ -232,8 +232,8 @@ const MoreNFT = () => {
               </div>
             </div>
             <p className="text-base font-bold text-[#818388] text-center ">Reserve price</p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center ">
-              <img className="" src={eth} alt="" />
+            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
+              <img src={eth} alt="" />
               <p className="ml-0.5">ETH 9.31</p>
               <p className="ml-0.5">($29,8846)</p>
             </div>
@@ -245,8 +245,8 @@ const MoreNFT = () => {
           </figure>
           <div>
             <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center mr-2">
-                <p className=" text-center text-base">Colour Play</p>
+              <div className="flex mb-3 items-center ">
+                <p className=" text-center text-sm">Colour Play</p>
               </div>
               <div className="card-actions m-2">
                 <div className="card-actions m-2">
@@ -260,8 +260,8 @@ const MoreNFT = () => {
               </div>
             </div>
             <p className="text-base font-bold text-[#818388] text-center ">Reserve price</p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center ">
-              <img className="" src={eth} alt="" />
+            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
+              <img src={eth} alt="" />
               <p className="ml-0.5">ETH 9.31</p>
               <p className="ml-0.5">($29,8846)</p>
             </div>

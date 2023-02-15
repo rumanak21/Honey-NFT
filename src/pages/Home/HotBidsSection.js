@@ -1,7 +1,10 @@
+import { CheckBadgeIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import hot_pic1 from "./../../img/bids-img1.png";
 import hot_pic2 from "./../../img/bids-img2.png";
 import hot_pic3 from "./../../img/bids-img3.png";
+import Crown from "./../../img/Crown.png";
+import eth from "./../../img/Eth.png";
 import pro_pic1 from "./../../img/pro-pic1.png";
 import pro_pic2 from "./../../img/pro-pic2.png";
 import pro_pic3 from "./../../img/pro-pic3.png";
@@ -23,19 +26,21 @@ const HotBidsSection = () => {
               <div className="w-6/12 mt-3 ">
                 <h2 className="mb-3">Sassy Bull</h2>
                 <div>
-                  <div className="flex mb-3 justify-center content-center">
+                  <div className="flex mb-3 items-center">
                     <div className="w-20 rounded-xl">
                       <img src={pro_pic1} alt="user pic" />
                     </div>
-                    <p className=" text-center pl-1">@jhonartist</p>
+                    <p className=" text-center text-base pl-1">@jhonartist</p>
+                    <CheckBadgeIcon className=" text-center pl-1 w-8 text-center text-blue-500 "></CheckBadgeIcon>
                   </div>
 
                   <p className="text-base font-bold text-[#818388] ">
                     Reserve price
                   </p>
-                  <div className="flex text-base font-bold text-[#818388] ">
-                    <p>ETH 9.31</p>
-                    <p>($29,8846)</p>
+                  <div className="flex text-sm font-bold text-[#818388] items-center ">
+                    <img className="" src={eth} alt="" />
+                    <p className="ml-0.5">ETH 9.31</p>
+                    <p className="ml-0.5">($29,8846)</p>
                   </div>
                 </div>
               </div>
@@ -64,9 +69,14 @@ const HotBidsSection = () => {
               </div>
             </div>
             <div className="card-actions justify-end m-2">
-              <button className="btn bg-gradient-to-t from-primary to-secondary w-28 h-10 ">
-                Place Bid
-              </button>
+              <div className="card-actions justify-end m-2">
+                <button className="btn bg-gradient-to-t from-primary to-secondary w-34 h-10 ">
+                  <div className="flex items-center">
+                    <img src={Crown} alt="" />{" "}
+                    <span className="ml-2">Place Bid</span>
+                  </div>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -79,19 +89,20 @@ const HotBidsSection = () => {
               <div className="w-6/12 mt-3 ">
                 <h2 className="mb-3">White Art</h2>
                 <div>
-                  <div className="flex mb-3 justify-center content-center">
+                  <div className="flex mb-3 items-center">
                     <div className="w-20 rounded-xl">
                       <img src={pro_pic2} alt="user pic" />
                     </div>
-                    <p className=" text-center pl-1">@jduuensc</p>
+                    <p className=" text-center text-base pl-1">@jduuensc</p>
+                    <CheckBadgeIcon className=" text-center pl-1 w-8 text-center text-blue-500 "></CheckBadgeIcon>
                   </div>
-
                   <p className="text-base font-bold text-[#818388] ">
                     Reserve price
                   </p>
-                  <div className="flex text-base font-bold text-[#818388] ">
-                    <p>ETH 9.73</p>
-                    <p>($75,8463)</p>
+                  <div className="flex text-sm font-bold text-[#818388] items-center ">
+                    <img className="" src={eth} alt="" />
+                    <p className="ml-0.5">ETH 9.73</p>
+                    <p className="ml-0.5">($75,8463)</p>
                   </div>
                 </div>
               </div>
@@ -120,9 +131,14 @@ const HotBidsSection = () => {
               </div>
             </div>
             <div className="card-actions justify-end m-2">
-              <button className="btn bg-gradient-to-t from-primary to-secondary w-28 h-10 ">
-                Place Bid
-              </button>
+              <div className="card-actions justify-end m-2">
+                <button className="btn bg-gradient-to-t from-primary to-secondary w-34 h-10 ">
+                  <div className="flex items-center">
+                    <img src={Crown} alt="" />{" "}
+                    <span className="ml-2">Place Bid</span>
+                  </div>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -135,19 +151,21 @@ const HotBidsSection = () => {
               <div className="w-6/12 mt-3 ">
                 <h2 className="mb-3">Colour art</h2>
                 <div>
-                  <div className="flex mb-3 justify-center content-center">
+                  <div className="flex mb-3 items-center">
                     <div className="w-20 rounded-xl">
                       <img src={pro_pic3} alt="user pic" />
                     </div>
-                    <p className=" text-center pl-1">@hasyrgsh</p>
+                    <p className=" text-center text-base pl-1">@hasyrgsh</p>
+                    <CheckBadgeIcon className=" text-center pl-1 w-8 text-center text-blue-500 "></CheckBadgeIcon>
                   </div>
 
                   <p className="text-base font-bold text-[#818388] ">
                     Reserve price
                   </p>
-                  <div className="flex text-base font-bold text-[#818388] ">
-                    <p>ETH 5.81</p>
-                    <p>($21,6743)</p>
+                  <div className="flex text-sm font-bold text-[#818388] items-center ">
+                    <img className="" src={eth} alt="" />
+                    <p className="ml-0.5">ETH 5.81</p>
+                    <p className="ml-0.5">($21,6743)</p>
                   </div>
                 </div>
               </div>
@@ -176,15 +194,18 @@ const HotBidsSection = () => {
               </div>
             </div>
             <div className="card-actions justify-end m-2">
-              <button className="btn bg-gradient-to-t from-primary to-secondary w-28 h-10 ">
-                Place Bid
+              <button className="btn bg-gradient-to-t from-primary to-secondary w-34 h-10 ">
+                <div className="flex items-center">
+                  <img src={Crown} alt="" />{" "}
+                  <span className="ml-2">Place Bid</span>
+                </div>
               </button>
             </div>
           </div>
         </div>
       </div>
       <div className="flex justify-center">
-        <button className="btn border-secondary text-secondary hover:text-white hover:bg-gradient-to-t from-primary to-secondary w-36 h-10 m-10 ">
+        <button className="btn border-secondary text-secondary w-36 h-10 m-10 hover:text-white hover:bg-gradient-to-t from-primary to-secondary">
           Veiw All
         </button>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import AboutSection from "./AboutSection";
 import BrandingSection from "./BrandingSection";
+import CreatorPage from "./CreatorPage";
 import HerroSection from "./HerroSection";
 import HotBidsSection from "./HotBidsSection";
 import MoreNFT from "./MoreNFT";
@@ -15,6 +16,7 @@ const Home = () => {
     <AboutSection></AboutSection>
     <HotBidsSection></HotBidsSection>
     <MoreNFT></MoreNFT>
+    <CreatorPage/>
     </div>
   );
 };

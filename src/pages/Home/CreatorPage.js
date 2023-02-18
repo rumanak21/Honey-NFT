@@ -1,5 +1,7 @@
 import React from "react";
-import hot_pic1 from "./../../img/bids-img1.png";
+import creator_pic1 from "./../../img/creator-b1.png";
+import creator_pic2 from "./../../img/creator-b2.png";
+import creator_pic3 from "./../../img/creator-b3.png";
 import pro_pic2 from "./../../img/John Vipe.png";
 import pro_pic1 from "./../../img/Mere Lin.png";
 import pro_pic3 from "./../../img/Mr Helentin.png";
@@ -14,11 +16,11 @@ const CreatorPage = () => {
       <div className="flex justify-center gap-2 mt-10">
         <div className="card w-72 bg-white bg-opacity-10 shadow-xl">
           <figure>
-            <img src={hot_pic1} alt="Sassy Bull" />
+            <img src={creator_pic1} alt="Blue Yellow" />
           </figure>
           <div className="avatar justify-center relative ">
             <div className="w-20 absolute -top-10 rounded-full">
-              <img src={pro_pic1} />
+              <img src={pro_pic1} alt="Female" />
             </div>
           </div>
           <div className="m-5">
@@ -38,11 +40,11 @@ const CreatorPage = () => {
         </div>
         <div className="card w-72 bg-white bg-opacity-10 shadow-xl">
           <figure>
-            <img src={hot_pic1} alt="Sassy Bull" />
+            <img src={creator_pic2} alt="Black Imae" />
           </figure>
           <div className="avatar justify-center relative ">
             <div className="w-20 absolute -top-10 rounded-full">
-              <img src={pro_pic2} />
+              <img src={pro_pic2} alt="Male" />
             </div>
           </div>
           <div className="m-5">
@@ -62,11 +64,11 @@ const CreatorPage = () => {
         </div>
         <div className="card w-72 bg-white bg-opacity-10 shadow-xl">
           <figure>
-            <img src={hot_pic1} alt="Sassy Bull" />
+            <img src={creator_pic3} alt="Single Hand" />
           </figure>
           <div className="avatar justify-center relative ">
             <div className="w-20 absolute -top-10 rounded-full">
-              <img src={pro_pic3} />
+              <img src={pro_pic3} alt="Male" />
             </div>
           </div>
           <div className="m-5">

@@ -6,6 +6,7 @@ import HerroSection from "./HerroSection";
 import HotBidsSection from "./HotBidsSection";
 import MoreNFT from "./MoreNFT";
 import Navbar from "./Navbar";
+import QuestionSection from "./QuestionSection";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
     <HotBidsSection></HotBidsSection>
     <MoreNFT></MoreNFT>
     <CreatorPage/>
+    <QuestionSection></QuestionSection>
     </div>
   );
 };

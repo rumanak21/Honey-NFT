@@ -8,6 +8,7 @@ import HotBidsSection from "./HotBidsSection";
 import MoreNFT from "./MoreNFT";
 import Navbar from "./Navbar";
 import QuestionSection from "./QuestionSection";
+import SummarySection from "./SummarySection";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
     <CreatorPage/>
     <QuestionSection></QuestionSection>
     <CollectNFT/>
+    <SummarySection/>
     </div>
   );
 };

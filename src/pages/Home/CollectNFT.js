@@ -7,7 +7,7 @@ const CollectNFT = () => {
         Get ready to collect our NFT
       </h1>
       <h1 className="text-3xl text-center font-bold ">our NFT</h1>
-      <button className="btn btn-active btn-ghost bg-base-200 w-40 h-5 mt-5 ">Button</button>
+      <button className="btn btn-active btn-sm border-none bg-white bg-opacity-60 hover:bg-gradient-to-t from-primary to-secondary w-32 mt-5 text-white ">Get Started</button>
     </div>
   );
 };

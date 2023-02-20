@@ -4,6 +4,7 @@ import BrandingSection from "./BrandingSection";
 import CollectNFT from "./CollectNFT";
 import CreatorPage from "./CreatorPage";
 import Footer from "./Footer";
+import FooterBottom from "./FooterBottom";
 import HerroSection from "./HerroSection";
 import HotBidsSection from "./HotBidsSection";
 import MoreNFT from "./MoreNFT";
@@ -25,6 +26,7 @@ const Home = () => {
     <CollectNFT/>
     <SummarySection/>
     <Footer/>
+    <FooterBottom/>
     </div>
   );
 };

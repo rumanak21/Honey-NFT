@@ -12,9 +12,10 @@ import Navbar from "./Navbar";
 import QuestionSection from "./QuestionSection";
 import SummarySection from "./SummarySection";
 
+
 const Home = () => {
   return (
-    <div className="bg-tertiary w-4/5">
+    <div className="bg-tertiary w-4/5" >
     <Navbar></Navbar>
     <HerroSection></HerroSection>
     <BrandingSection></BrandingSection>

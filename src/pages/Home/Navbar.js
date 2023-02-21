@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
 import img from "./../../img/HoneyNFT.png";
-
 const Navbar = () => {
-    return (
-        <div className="navbar">
+  return (
+    <div className="navbar mt-10 ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -43,9 +42,7 @@ const Navbar = () => {
       </div>
 
       <div className="form-control w-4/5 max-w-xs ml-20">
-        
         <input
-        
           type="search"
           placeholder=" &#128269; Search Items and Collections"
           className="input input-bordered w-full h-9 max-w-xs text-black "
@@ -72,7 +69,7 @@ const Navbar = () => {
         </a>
       </div>
     </div>
-    );
+  );
 };
 
 export default Navbar;

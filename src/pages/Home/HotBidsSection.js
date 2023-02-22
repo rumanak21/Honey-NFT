@@ -21,50 +21,49 @@ const HotBidsSection = () => {
           <figure>
             <img src={hot_pic1} alt="Sassy Bull" />
           </figure>
-          <div>
-            <div className=" flex flex-col-2 pl-3 pr-3 ">
-              <div className="w-6/12 mt-3 ">
-                <h2 className="mb-3">Sassy Bull</h2>
-                <div>
-                  <div className="flex mb-3 items-center">
-                    <div className="w-20 rounded-xl">
-                      <img src={pro_pic1} alt="user pic" />
-                    </div>
-                    <p className=" text-center text-base pl-1">@jhonartist</p>
-                    <CheckBadgeIcon className=" text-center pl-1 w-8 text-center text-blue-500 "></CheckBadgeIcon>
-                  </div>
 
-                  <p className="text-base font-bold text-[#818388] ">
-                    Reserve price
-                  </p>
-                  <div className="flex text-sm font-bold text-[#818388] items-center ">
-                    <img className="" src={eth} alt="" />
-                    <p className="ml-0.5">ETH 9.31</p>
-                    <p className="ml-0.5">($29,8846)</p>
+          <div className=" flex flex-col-2 pl-3 pr-3 ">
+            <div className="w-6/12 mt-3 ">
+              <h2 className="mb-3">Sassy Bull</h2>
+              <div>
+                <div className="flex mb-3 items-center">
+                  <div className="w-20 rounded-xl">
+                    <img src={pro_pic1} alt="user pic" />
                   </div>
+                  <p className=" text-center text-base pl-1">@jhonartist</p>
+                  <CheckBadgeIcon className=" pl-1 w-8 text-center text-blue-500 "></CheckBadgeIcon>
+                </div>
+
+                <p className="text-base font-bold text-[#818388] ">
+                  Reserve price
+                </p>
+                <div className="flex text-sm font-bold text-[#818388] items-center ">
+                  <img className="" src={eth} alt="" />
+                  <p className="ml-0.5">ETH 9.31</p>
+                  <p className="ml-0.5">($29,8846)</p>
                 </div>
               </div>
-              <div className="mt-6 pl-3 text-center ">
-                <p className="text-base font-bold text-[#818388]">
-                  Auction Ends in
-                </p>
-                <div className="flex flex-col-3 p-2">
-                  <div>
-                    <p className="font-bold">09</p>
-                    <p className="text-base font-bold text-[#818388] pr-2">
-                      Hours
-                    </p>
-                  </div>
-                  <div>
-                    <p className="font-bold mr-2 ">15</p>
-                    <p className="text-base font-bold text-[#818388] pr-2">
-                      Mins
-                    </p>
-                  </div>
-                  <div>
-                    <p className="font-bold">23</p>
-                    <p className="text-base font-bold text-[#818388]">Secs</p>
-                  </div>
+            </div>
+            <div className="mt-6 pl-3 text-center ">
+              <p className="text-base font-bold text-[#818388]">
+                Auction Ends in
+              </p>
+              <div className="flex flex-col-3 p-2">
+                <div>
+                  <p className="font-bold">09</p>
+                  <p className="text-base font-bold text-[#818388] pr-2">
+                    Hours
+                  </p>
+                </div>
+                <div>
+                  <p className="font-bold mr-2 ">15</p>
+                  <p className="text-base font-bold text-[#818388] pr-2">
+                    Mins
+                  </p>
+                </div>
+                <div>
+                  <p className="font-bold">23</p>
+                  <p className="text-base font-bold text-[#818388]">Secs</p>
                 </div>
               </div>
             </div>

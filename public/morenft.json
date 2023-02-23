@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "63f79dc63e71163da64b4016",
+    "name": "Red Line",
+    "picture": "./cardImg/moreNFTs-1.png",
+    "priceeth": "9.31",
+    "priceusd": "$29,8846"
+  },
+  {
+    "_id": "63f79dc63e71163da64b4016",
+    "name": "Blue Fire",
+    "picture": "./cardImg/moreNFTs-2.png",
+    "priceeth": "9.31",
+    "priceusd": "$29,8846"
+  },
+  {
+    "_id": "63f79dc63e71163da64b4016",
+    "name": "Green Glass",
+    "picture": "./cardImg/moreNFTs-3.png",
+    "priceeth": "9.31",
+    "priceusd": "$29,8846"
+  },
+  {
+    "_id": "63f79dc63e71163da64b4016",
+    "name": "Hi Colour",
+    "picture": "./cardImg/moreNFTs-4.png",
+    "priceeth": "9.31",
+    "priceusd": "$29,8846"
+  },
+  {
+    "_id": "63f79dc63e71163da64b4016",
+    "name": "Super Red",
+    "picture": "./cardImg/moreNFTs-5.png",
+    "priceeth": "9.31",
+    "priceusd": "$29,8846"
+  },
+  {
+    "_id": "63f79dc63e71163da64b4016",
+    "name": "Glassy White",
+    "picture": "./cardImg/moreNFTs-6.png",
+    "priceeth": "9.31",
+    "priceusd": "$29,8846"
+  },
+  {
+    "_id": "63f79dc63e71163da64b4016",
+    "name": "Pink Banana",
+    "picture": "./cardImg/moreNFTs-7.png",
+    "priceeth": "9.31",
+    "priceusd": "$29,8846"
+  },
+  {
+    "_id": "63f79dc63e71163da64b4016",
+    "name": "Colour Play",
+    "picture": "./cardImg/moreNFTs-8.png",
+    "priceeth": "9.31",
+    "priceusd": "$29,8846"
+  }
+]

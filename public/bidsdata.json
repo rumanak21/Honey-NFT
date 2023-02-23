@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "63f79dc63e71163da64b4016",
+    "name": "Sassy Bull",
+    "picture": "./cardImg/bids-img1.png",
+    "propic1": "./cardImg/pro-pic1.png",
+    "profilename": "@jhonartist",
+    "bidhour": "09",
+    "bidmins": "15",
+    "bidsec": "23",
+    "priceeth": "9.31",
+    "priceusd": "$29,8846"
+  },
+  {
+    "_id": "63f79dc63e71163da64b4016",
+    "name": "White Art",
+    "picture": "./cardImg/bids-img2.png",
+    "propic1": "./cardImg/pro-pic2.png",
+    "profilename": "@jduuensc",
+    "bidhour": "09",
+    "bidmins": "15",
+    "bidsec": "23",
+    "priceeth": "9.73",
+    "priceusd": "$75,8463"
+  },
+  {
+    "_id": "63f79dc63e71163da64b4016",
+    "name": "Colour art",
+    "picture": "./cardImg/bids-img3.png",
+    "propic1": "./cardImg/pro-pic3.png",
+    "profilename": "@hasyrgsh",
+    "bidhour": "09",
+    "bidmins": "15",
+    "bidsec": "23",
+    "priceeth": "5.81",
+    "priceusd": "$21,6743"
+  }
+]

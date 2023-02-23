@@ -1,16 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Crown from "./../../img/Crown.png";
 import eth from "./../../img/Eth.png";
-import moreNFT_pic1 from "./../../img/moreNFTs-1.png";
-import moreNFT_pic2 from "./../../img/moreNFTs-2.png";
-import moreNFT_pic3 from "./../../img/moreNFTs-3.png";
-import moreNFT_pic4 from "./../../img/moreNFTs-4.png";
-import moreNFT_pic5 from "./../../img/moreNFTs-5.png";
-import moreNFT_pic6 from "./../../img/moreNFTs-6.png";
-import moreNFT_pic7 from "./../../img/moreNFTs-7.png";
-import moreNFT_pic8 from "./../../img/moreNFTs-8.png";
 
 const MoreNFT = () => {
+  const [allData, setallData] = useState([]);
+  useEffect(() => {
+    fetch("morenft.json")
+      .then((res) => res.json())
+      .then((data) => setallData(data));
+  }, []);
   return (
     <div className="">
       <h1 className="text-3xl font-bold text-center ">
@@ -43,246 +41,38 @@ const MoreNFT = () => {
         </button>
       </div>
       <div className=" grid grid-cols-4 gap-5 ">
-        <div className="card  bg-white bg-opacity-10 shadow-xl">
-          <figure>
-            <img src={moreNFT_pic1} alt="Red Line" />
-          </figure>
-          <div>
-            <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center ">
-                <p className=" text-center text-sm">Red Line</p>
-              </div>
-              <div className="card-actions m-2">
+        {allData.map((data) => (
+          <div key={data.id} className="card  bg-white bg-opacity-10 shadow-xl">
+            <figure>
+              <img src={data.picture} alt="Red Line" />
+            </figure>
+            <div>
+              <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
+                <div className="flex mb-3 items-center ">
+                  <p className=" text-center text-sm">{data.name}</p>
+                </div>
                 <div className="card-actions m-2">
-                  <button className="btn bg-gradient-to-t from-primary to-secondary w-25 text-xs	">
-                    <div className="flex items-center">
-                      <img className="w-4" src={Crown} alt="" />
-                      <span className="pl-1">Place Bid</span>
-                    </div>
-                  </button>
+                  <div className="card-actions m-2">
+                    <button className="btn bg-gradient-to-t from-primary to-secondary w-25 text-xs	">
+                      <div className="flex items-center">
+                        <img className="w-4" src={Crown} alt="" />
+                        <span className="pl-1">Place Bid</span>
+                      </div>
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <p className="text-base font-bold text-[#818388] text-center ">
-              Reserve price
-            </p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
-              <img src={eth} alt="" />
-              <p className="ml-0.5">ETH 9.31</p>
-              <p className="ml-0.5">($29,8846)</p>
+              <p className="text-base font-bold text-[#818388] text-center ">
+                Reserve price
+              </p>
+              <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
+                <img src={eth} alt="" />
+                <p className="ml-0.5">ETH {data.priceeth}</p>
+                <p className="ml-0.5">({data.priceusd})</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="card  bg-white bg-opacity-10 shadow-xl">
-          <figure>
-            <img src={moreNFT_pic2} alt="Blue Fire" />
-          </figure>
-          <div>
-            <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center ">
-                <p className=" text-center text-sm">Blue Fire</p>
-              </div>
-              <div className="card-actions m-2">
-                <div className="card-actions m-2">
-                  <button className="btn bg-gradient-to-t from-primary to-secondary w-25 text-xs	">
-                    <div className="flex items-center">
-                      <img className="w-4" src={Crown} alt="" />
-                      <span className="pl-1">Place Bid</span>
-                    </div>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <p className="text-base font-bold text-[#818388] text-center ">
-              Reserve price
-            </p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
-              <img src={eth} alt="" />
-              <p className="ml-0.5">ETH 9.31</p>
-              <p className="ml-0.5">($29,8846)</p>
-            </div>
-          </div>
-        </div>
-        <div className="card  bg-white bg-opacity-10 shadow-xl">
-          <figure>
-            <img src={moreNFT_pic3} alt="Green Glass" />
-          </figure>
-          <div>
-            <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center ">
-                <p className=" text-center text-sm">Green Glass</p>
-              </div>
-              <div className="card-actions m-2">
-                <div className="card-actions m-2">
-                  <button className="btn bg-gradient-to-t from-primary to-secondary w-25 text-xs	">
-                    <div className="flex items-center">
-                      <img className="w-4" src={Crown} alt="" />
-                      <span className="pl-1">Place Bid</span>
-                    </div>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <p className="text-base font-bold text-[#818388] text-center ">
-              Reserve price
-            </p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
-              <img src={eth} alt="" />
-              <p className="ml-0.5">ETH 9.31</p>
-              <p className="ml-0.5">($29,8846)</p>
-            </div>
-          </div>
-        </div>
-        <div className="card  bg-white bg-opacity-10 shadow-xl">
-          <figure>
-            <img src={moreNFT_pic4} alt="Hi Colour" />
-          </figure>
-          <div>
-            <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center ">
-                <p className=" text-center text-sm">Hi Colour</p>
-              </div>
-              <div className="card-actions m-2">
-                <div className="card-actions m-2">
-                  <button className="btn bg-gradient-to-t from-primary to-secondary w-25 text-xs	">
-                    <div className="flex items-center">
-                      <img className="w-4" src={Crown} alt="" />
-                      <span className="pl-1">Place Bid</span>
-                    </div>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <p className="text-base font-bold text-[#818388] text-center ">
-              Reserve price
-            </p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
-              <img src={eth} alt="" />
-              <p className="ml-0.5">ETH 9.31</p>
-              <p className="ml-0.5">($29,8846)</p>
-            </div>
-          </div>
-        </div>
-        <div className="card  bg-white bg-opacity-10 shadow-xl">
-          <figure>
-            <img src={moreNFT_pic5} alt="Super Red" />
-          </figure>
-          <div>
-            <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center ">
-                <p className=" text-center text-sm">Super Red</p>
-              </div>
-              <div className="card-actions m-2">
-                <div className="card-actions m-2">
-                  <button className="btn bg-gradient-to-t from-primary to-secondary w-25 text-xs	">
-                    <div className="flex items-center">
-                      <img className="w-4" src={Crown} alt="" />
-                      <span className="pl-1">Place Bid</span>
-                    </div>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <p className="text-base font-bold text-[#818388] text-center ">
-              Reserve price
-            </p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
-              <img src={eth} alt="" />
-              <p className="ml-0.5">ETH 9.31</p>
-              <p className="ml-0.5">($29,8846)</p>
-            </div>
-          </div>
-        </div>
-        <div className="card  bg-white bg-opacity-10 shadow-xl">
-          <figure>
-            <img src={moreNFT_pic6} alt="Glassy White" />
-          </figure>
-          <div>
-            <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center ">
-                <p className=" text-center text-sm">Glassy White</p>
-              </div>
-              <div className="card-actions m-2">
-                <div className="card-actions m-2">
-                  <button className="btn bg-gradient-to-t from-primary to-secondary w-25 text-xs	">
-                    <div className="flex items-center">
-                      <img className="w-4" src={Crown} alt="" />
-                      <span className="pl-1">Place Bid</span>
-                    </div>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <p className="text-base font-bold text-[#818388] text-center ">
-              Reserve price
-            </p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
-              <img src={eth} alt="" />
-              <p className="ml-0.5">ETH 9.31</p>
-              <p className="ml-0.5">($29,8846)</p>
-            </div>
-          </div>
-        </div>
-        <div className="card  bg-white bg-opacity-10 shadow-xl">
-          <figure>
-            <img src={moreNFT_pic7} alt="Pink Banana" />
-          </figure>
-          <div>
-            <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center ">
-                <p className=" text-center text-sm">Pink Banana</p>
-              </div>
-              <div className="card-actions m-2">
-                <div className="card-actions m-2">
-                  <button className="btn bg-gradient-to-t from-primary to-secondary w-25 text-xs	">
-                    <div className="flex items-center">
-                      <img className="w-4" src={Crown} alt="" />
-                      <span className="pl-1">Place Bid</span>
-                    </div>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <p className="text-base font-bold text-[#818388] text-center ">
-              Reserve price
-            </p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
-              <img src={eth} alt="" />
-              <p className="ml-0.5">ETH 9.31</p>
-              <p className="ml-0.5">($29,8846)</p>
-            </div>
-          </div>
-        </div>
-        <div className="card  bg-white bg-opacity-10 shadow-xl">
-          <figure>
-            <img src={moreNFT_pic8} alt="Colour Play" />
-          </figure>
-          <div>
-            <div className=" flex flex-col-2 pl-3 pr-3 justify-center ">
-              <div className="flex mb-3 items-center ">
-                <p className=" text-center text-sm">Colour Play</p>
-              </div>
-              <div className="card-actions m-2">
-                <div className="card-actions m-2">
-                  <button className="btn bg-gradient-to-t from-primary to-secondary w-25 text-xs	">
-                    <div className="flex items-center">
-                      <img className="w-4" src={Crown} alt="" />
-                      <span className="pl-1">Place Bid</span>
-                    </div>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <p className="text-base font-bold text-[#818388] text-center ">
-              Reserve price
-            </p>
-            <div className="flex text-sm font-bold text-[#818388] items-center justify-center pb-5 ">
-              <img src={eth} alt="" />
-              <p className="ml-0.5">ETH 9.31</p>
-              <p className="ml-0.5">($29,8846)</p>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
       <div className="flex justify-center">
         <button className="btn border-secondary text-secondary w-36 h-10 m-10 hover:text-white hover:bg-gradient-to-t from-primary to-secondary">

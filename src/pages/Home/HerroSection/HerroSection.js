@@ -1,11 +1,11 @@
 import React from "react";
-import hero_pic1 from "./../../img/header-img1.png";
-import hero_pic2 from "./../../img/header-img2.png";
-import hero_pic3 from "./../../img/header-img3.png";
-import hero_pic4 from "./../../img/header-img4.png";
-import hero_pic5 from "./../../img/header-img5.png";
-import hero_pic6 from "./../../img/header-img6.png";
-import hero_pic7 from "./../../img/header-img7.png";
+import hero_pic1 from "../../../img/header-img1.png";
+import hero_pic2 from "../../../img/header-img2.png";
+import hero_pic3 from "../../../img/header-img3.png";
+import hero_pic4 from "../../../img/header-img4.png";
+import hero_pic5 from "../../../img/header-img5.png";
+import hero_pic6 from "../../../img/header-img6.png";
+import hero_pic7 from "../../../img/header-img7.png";
 
 const HerroSection = () => {
   return (

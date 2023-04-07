@@ -1,7 +1,7 @@
 import { CheckBadgeIcon } from "@heroicons/react/24/solid";
 import React, { useEffect, useState } from "react";
-import Crown from "./../../img/Crown.png";
-import eth from "./../../img/Eth.png";
+import Crown from "../../../img/Crown.png";
+import eth from "../../../img/Eth.png";
 
 const HotBidsSection = () => {
   const [allData, setallData] = useState([]);

@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "63f79dc63e71163da64b4016",
+    "name": "Mere Lin",
+    "picture": "./cardImg/creator-b1.png",
+    "propic1": "./cardImg/Mere Lin.png",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "_id": "63f79dc63e71163da64b4017",
+    "name": "John Vipe",
+    "picture": "./cardImg/creator-b2.png",
+    "propic1": "./cardImg/John Vipe.png",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "_id": "63f79dc63e71163da64b4018",
+    "name": "Mr Helentin",
+    "picture": "./cardImg/creator-b3.png",
+    "propic1": "./cardImg/Mr Helentin.png",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  }
+]

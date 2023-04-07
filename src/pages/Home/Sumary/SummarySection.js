@@ -1,7 +1,7 @@
 import { faPalette, faWallet } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import artWorks from "./../../img/artworks.png";
+import artWorks from "../../../img/artworks.png";
 
 const SummarySection = () => {
   return (

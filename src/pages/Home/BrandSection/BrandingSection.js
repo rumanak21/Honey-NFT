@@ -1,7 +1,7 @@
 import React from "react";
-import logo1 from "./../../img/Binance_logo logo.svg";
-import logo3 from "./../../img/Ethereum logo.svg";
-import logo2 from "./../../img/Logo_of_Blockchain.io logo.svg";
+import logo1 from "../../../img/Binance_logo logo.svg";
+import logo3 from "../../../img/Ethereum logo.svg";
+import logo2 from "../../../img/Logo_of_Blockchain.io logo.svg";
 
 const BrandingSection = () => {
   return (

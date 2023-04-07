@@ -1,7 +1,7 @@
 import React from "react";
-import about_pic1 from "./../../img/about-img1.png";
-import about_pic2 from "./../../img/about-img2.png";
-import about_pic3 from "./../../img/about-img3.png";
+import about_pic1 from "../../../img/about-img1.png";
+import about_pic2 from "../../../img/about-img2.png";
+import about_pic3 from "../../../img/about-img3.png";
 
 const AboutSection = () => {
   return (

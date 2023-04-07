@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./../../img/HoneyNFT.png";
+import img from "../../../img/HoneyNFT.png";
 const Navbar = () => {
   return (
     <div className="navbar mt-10 ">

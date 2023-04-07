@@ -6,7 +6,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import logo from "./../../img/HoneyNFT.png";
+import logo from "../../../img/HoneyNFT.png";
 
 const Footer = () => {
   return (

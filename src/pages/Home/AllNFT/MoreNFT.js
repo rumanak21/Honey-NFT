@@ -1,30 +1,48 @@
 import React, { useEffect, useState } from "react";
-import Crown from "./../../img/Crown.png";
-import eth from "./../../img/Eth.png";
+import Crown from "../../../img/Crown.png";
+import eth from "../../../img/Eth.png";
 
 const MoreNFT = () => {
   const [allData, setallData] = useState([]);
+  const [filtered, setFiltered] = useState([]);
+  console.log(filtered)
   useEffect(() => {
     fetch("morenft.json")
       .then((res) => res.json())
-      .then((data) => setallData(data));
+      .then((data) => setallData(data));  
   }, []);
+  useEffect(() => {
+    fetch("morenft.json")
+      .then((res) => res.json())
+      .then((data) => setFiltered(data));  
+  }, []);
+
+  const filterItem = (CategoryItem) => {
+    const updateItems = filtered.filter((currentElem) => {
+      return currentElem.category === CategoryItem;
+    });
+    setallData(updateItems);
+  
+  };
   return (
     <div className="">
       <h1 className="text-3xl font-bold text-center ">
         Discover More <span className=" text-secondary ">NFT</span>s
       </h1>
       <div className=" flex justify-center gap-5 mt-10 mb-10 relative ">
-        <button className="btn btn-active bg-gradient-to-t from-primary to-secondary">
+        <button onClick={() => setallData(filtered)} className="btn btn-active bg-gradient-to-t from-primary to-secondary">
           All Categories
         </button>
-        <button className="btn bg-white bg-opacity-10 hover:bg-gradient-to-t from-primary to-secondary">
+        <button
+          onClick={() => filterItem("ART")}
+          className="btn bg-white bg-opacity-10 hover:bg-gradient-to-t from-primary to-secondary"
+        >
           Art
         </button>
-        <button className="btn bg-white bg-opacity-10 hover:bg-gradient-to-t from-primary to-secondary">
+        <button onClick={() => filterItem("Celebrity")} className="btn bg-white bg-opacity-10 hover:bg-gradient-to-t from-primary to-secondary">
           Celebrities
         </button>
-        <button className="btn bg-white bg-opacity-10 hover:bg-gradient-to-t from-primary to-secondary">
+        <button onClick={() => filterItem("game")} className="btn bg-white bg-opacity-10 hover:bg-gradient-to-t from-primary to-secondary">
           Gaming
         </button>
         <button className="btn bg-white bg-opacity-10 hover:bg-gradient-to-t from-primary to-secondary">
